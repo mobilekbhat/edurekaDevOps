@@ -2,7 +2,7 @@
 mkdir GIT_NEW_PROJECT
 cd GIT_NEW_PROJECT
   
-git init
+git init # git initialization
   
 git config --global user.name "mobilekbhat"
 git config --global user.email karthikkbhat@yahoo.co.in
@@ -10,7 +10,7 @@ git remote add origin https://github.com/mobilekbhat/edurekaDevOps.git
   
 cat config 
   
-touch edureka1.txt
+touch edureka1.txt # creating a file in unix system
 touch edureka2.txt
 touch edureka3.txt
 git status
@@ -23,3 +23,12 @@ git branch #list all branches and indicates which branch user is using
 git checkout Develop #connects to Develop branch, default would be *master branch
  
 git push origin Develop
+
+git pull origin Develop
+
+git fetch origin
+
+git log # shows list of commits with SHA codes and last recent commit with HEAD pointing
+git log --pretty=oneline
+
+git remote show origin
