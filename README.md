@@ -32,3 +32,5 @@ git log # shows list of commits with SHA codes and last recent commit with HEAD 
 git log --pretty=oneline
 
 git remote show origin
+
+#end of file
